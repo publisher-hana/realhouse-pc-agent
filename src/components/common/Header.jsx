@@ -11,6 +11,7 @@ const Header = () => {
             <li><Link to="/itemSch" className={`link ${location.pathname.startsWith("/itemSch") ? "on" : ""}`}>매물검색</Link></li>
             <li><Link to="/myBuy" className={`link ${location.pathname.startsWith("/myBuy") ? "on" : ""}`}>나의매수</Link></li>
             <li><Link to="/mySell" className={`link ${location.pathname.startsWith("/mySell") ? "on" : ""}`}>나의매도</Link></li>
+            <li><a href="https://publisher-hana.github.io/realhouse-pc/" className='external-link' target='_blank'>리얼하우스</a></li>
           </ul>
         </nav>
         {/* <Link to="" className='member'>로그인</Link> */}

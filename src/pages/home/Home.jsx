@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Home = () => {
   return (
     <div className="container-wrap">
@@ -10,7 +8,7 @@ const Home = () => {
               <span className="home-logo"><img src='/realhouse-pc-agent/images/logo.png' alt='리얼하우스' /></span>
               <h2 className="title">중개사 관리자</h2>
             </div>
-            <Link to="" className="link">리얼하우스 홈 바로가기</Link>
+            <a href="https://publisher-hana.github.io/realhouse-pc/" className='link' target='_blank'>리얼하우스 홈 바로가기</a>
           </div>
           <div className="dashboard-container">
             {/* 왼쪽 영역 */}
