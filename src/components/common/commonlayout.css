@@ -33,6 +33,9 @@
 .menu-list .link.on{
    color: var(--c-blue);
 }
+.menu-list li a{
+  color: var(--c-black);
+}
 .header .right .member{
   color: var(--c-bold-gray);
 }

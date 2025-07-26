@@ -82,7 +82,7 @@ i,em{font-style: normal;}
   --header-h:70px;
   --form-h:40px;
   --primary-color:#378cff;
-  --c-black:#373737;
+  --c-black:#111;
   --c-blue:#2281FF;
   --c-blue-strong:#0057FF;
   --c-blue-hover:#1A73E8;
@@ -107,4 +107,4 @@ i,em{font-style: normal;}
   --trans-3s:all ease 0.3s;
   --hover-color: #e9ecef;
   --box-shadow :0 6px 20px rgba(0, 0, 0, 0.1);
-}
+} 
